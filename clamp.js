@@ -6,12 +6,13 @@
 * http://sam.zoy.org/wtfpl/
 */
 
-(function(){
+define([], function(){
     /**
      * Clamps a text node.
      * @param {HTMLElement} element. Element containing the text node to clamp.
      * @param {Object} options. Options to pass to the clamper.
      */
+    debugger;
     function clamp(element, options) {
         options = options || {};
 
@@ -257,5 +258,5 @@
         }
     }
 
-    window.$clamp = clamp;
-})();
+    return clamp;
+});

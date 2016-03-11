@@ -1,6 +1,6 @@
 {
   "name": "clamper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "trim text by max lines or max height",
   "main": "clamp.js",
   "directories": {
