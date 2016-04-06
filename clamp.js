@@ -1,4 +1,4 @@
-/*!
+﻿/*!
 * Clamp.js 0.5.1
 *
 * Copyright 2011-2013, Joseph Schmitt http://joe.sh
@@ -12,7 +12,6 @@ define([], function(){
      * @param {HTMLElement} element. Element containing the text node to clamp.
      * @param {Object} options. Options to pass to the clamper.
      */
-    debugger;
     function clamp(element, options) {
         options = options || {};
 
